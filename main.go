@@ -6,6 +6,7 @@ import (
 	"github.com/jeff-rdg/hackerRankSolution/diagonalDifference"
 	"github.com/jeff-rdg/hackerRankSolution/flippingBits"
 	"github.com/jeff-rdg/hackerRankSolution/lonelyInteger"
+	"github.com/jeff-rdg/hackerRankSolution/pangrams"
 	"github.com/jeff-rdg/hackerRankSolution/sparseArray"
 	"github.com/jeff-rdg/hackerRankSolution/timeConversion"
 )
@@ -34,6 +35,8 @@ func SelectMethod(value int) {
 		diagonalDifference.Exec()
 	case 6:
 		countSort1.Exec()
+	case 7:
+		pangrams.Exec()
 
 	}
 }
